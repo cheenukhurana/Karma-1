@@ -17,13 +17,13 @@ Steps to setup Localhost:
 - Also you will need to have some accounts in the polygon testnet ( Mumbai ) and have to add some Faucet Matic to be able to make interaction. 
 - The accounts that have been used for this contract are from Alchemy, You can set up Mumbai testnet addresses there
 
-## Frotnend Part
+## Frontend Part
 
 -On the Frontend, first you will need to deposit some Matic in order to make some charity donations.
 -After that the contract will receive the deposited MATIC amount and will save the transaction on PolygonScan
 -Then We can actually use the Donate button now
 -The Matic will go to the Charity's address which will create some KarmaToken and send it back to the user's address as a reward.
 
-(We were not able to understand why due to the short period of time, but the Matic amount is staying on the smart contract's address and the KarmaCoin is actually going to the Charity's address where the Matic should go ( the transactions can be seen on the PolygonScan ) )
+(We were not able to understand why due to the short period of time, but the Matic amount is staying on the smart contract's address and the KarmaCoin is actually going to the Charity's address where the Matic should go ( the transactions can be seen on the PolygonScan ) 
 
 
