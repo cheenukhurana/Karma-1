@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Karma Coin</title>
+    <meta name="description" content="More good you do, more you get back">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./web3.min.js"></script>
+    <script type="text/javascript" src="./abi.js"></script>
+    <script type="text/javascript" src="./index.js"></script>
+    <link rel="icon" type="image/x-icon" href="./images/favicon.ico" />
+    <link rel="stylesheet" href="mystyle.css">
+</head>
+<body>
+
+    <header style="text-align: center; margin-bottom: 2rem;">
+        <h1 style="font-size: 2.4rem; font-weight:700; margin: 0;">Karma Coin</h1>
+        <p style="margin-top:0.6rem; font-size: 1.2rem; font-weight:500;">More good your do, more you get back</p>
+    </header>
+
+
+    <section style="font-size: 1.2rem;  margin-bottom: 2rem;">
+        <p style="line-height: 1.5;">Donate 1 matic to any charity below to receive 1 karma coin. Donate 100 matic to receive 100 karma and so on.</p>
+
+<!-- If you remove the deposit funciton then comment the code between slashes and uncomment the code below slashes  -->
+
+        <!-- //////////// -->
+
+        <div style="margin-bottom: 1.5rem;">
+            <h3 style="color: rgb(35,35,35)">Step 1: Deposit Matic</h3>
+            <input type="text" id="placedMATIC" placeholder="Number of matic">
+            <button style="background-color: blue; color: white; border-radius: 4px" id="MaticButton">Deposit</button>
+            <p style=" line-height: 1.5;">Available Matic:</p>
+            <h2 id="theNumber2" class="num" ></h2>
+        </div>
+
+        <div>
+            <h3 style=" color: rgb(35,35,35)">Step 2: Donate to charity </h3>
+            <div>
+                <h4 style="margin-bottom: 0.5rem; color: rgb(60,60,60)">Human Rights Organization</h4>
+                <input type="text" id="charitiedMATIC" placeholder="Number of matic">
+                <button style="background-color: blue; color: white; border-radius: 4px" id="charityButton">Donate</button>
+            </div>
+    
+
+        <!-- //////////// -->
+
+
+        <!-- <div style="margin-bottom: 1.5rem;">
+            <h3 style="margin-bottom: 0.5rem; color: rgb(35,35,35)">Human Rights Organization</h3>
+            <input type="text" id="placedETH" placeholder="Number of matic">
+            <button style="background-color: blue; color: white; border-radius: 4px" id="charityButton">Donate</button>
+        </div>
+
+        <div>
+            <h3 style="margin-bottom: 0.5rem; color: rgb(35,35,35)">Animals Association</h3>
+            <input type="text" id="placedETH" placeholder="Number of matic">
+            <button style="background-color: blue; color: white; border-radius: 4px" id="charityButton">Donate</button>
+        </div> -->
+
+    </section>
+
+
+    <footer>
+        <h1 style="text-align: center;">Karma Dao</h1>
+        <p style="font-size: 1.2rem; line-height: 1.5;">Karma coin holders can vote on the charities to be included for donation. Only way to acquire karma coins is by donating. For every 1 matic donation, 1 karma is minted. The supply will be reduced over the years.</p>
+    </footer>
+
+</body>
+</html>
