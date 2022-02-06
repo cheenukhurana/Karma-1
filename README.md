@@ -24,6 +24,6 @@ Steps to setup Localhost:
 -Then We can actually use the Donate button now
 -The Matic will go to the Charity's address which will create some KarmaToken and send it back to the user's address as a reward.
 
-(We were not able to understand why due to the short period of time, but the Matic amount is staying on the smart contract's address and the KarmaCoin is actually going to the Charity's address where the Matic should go ( the transactions can be seen on the PolygonScan ) 
+(We were not able to understand why due to the short period of time, but the Matic amount is staying on the smart contract's address and the KarmaCoin is actually going to the Charity's address where the Matic should go ( the transactions can be seen on the PolygonScan ) )
 
 
